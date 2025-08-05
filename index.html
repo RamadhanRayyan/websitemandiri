@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,15 +7,14 @@
     <link href="./output.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body class=" bg-[url(assets/bekgrooonn.png)] text-gray-900 h-[200rem]">
-
+<body class=" bg-[url(assets/hehebg.png)] text-gray-900 h-[110rem]">
 <nav class="flex items-center justify-between ">
         <p class="text-white pl-7 text-5xl font-extrabold font-mono hover:scale-120 duration-200">-MRR-</p>
     </div>  
     <div>
         <ul class="flex space-x-4 justify-end m-7 text-2xl"> 
-            <li><a href="#" class="text-white hover:text-black font-serif duration-200" >About</a></li>
-            <li><a href="#" class="text-white hover:text-black font-serif duration-200">Project</a></li>
+            <li><a href="#about" class="text-white hover:text-black font-serif duration-200" >About</a></li>
+            <li><a href="#project" class="text-white hover:text-black font-serif duration-200">Project</a></li>
             <li><a href="#" class="text-white hover:text-black font-serif duration-200">Contact</a></li>
         </ul>
     </div>
@@ -23,20 +22,31 @@
 <hr class="border-white border-1">
 <div>
     <div flex items-center justify-between>
-        <img src="assets/foto-kucing-oren.png" alt="PROFILE" class="w-50 h-50 rounded-lg shadow-2xs mx-auto mt-10 shadow-white shadow-sm border-white border-2 hover:scale-109 duration-200 hover:border-black border-2 shadow-black duration-200">
+        <img src="assets/foto-kucing-oren.png" alt="PROFILE" class="w-50 h-50 rounded-lg shadow-2xs mx-auto mt-10 shadow-white shadow-sm border-white border-2 rounded-t-full hover:scale-109 hover:border-black hover:shadow-black duration-200">
     </div>
-    <div class="flex flex-col items-center justify-center mt-10">
+    <div id="about" class="flex flex-col items-center justify-center mt-10">
         <p class="text-white font-semibold font-serif
-        ">Hello! I'am <span class="text-black hover:text-gray-500 duration-200">Muhammad Ramadhan Rayyan</span></p>
-        <p class="text-white font-semibold font-serif">Saya adalah seorang Website Developer💻</p>
+        ">Hello! I'am <span class="text-sky-500 hover:text-gray-500 duration-200">Muhammad Ramadhan Rayyan</span></p>
+        <p class="text-white font-semibold font-serif">Saya adalah seorang Website Developer💻</p><br><br>
+    </div>
+    <div>
+        <p class="flex flex-col items-center justify-center mt-10 text-white font-mono">I'am Student in Senior High School at <span class="text-green-700 font-extrabold hover:text-green-950 hover:scale-110 duration-200"><a href="https://www.nusabs.sch.id/" target="_blank">NUSA BOARDING SCHOOL</a></span></p>
+        <p class="flex flex-col items-center justify-center mt-10 text-white font-mono">
+            im like to learn about <span class=" font-extrabold  hover:scale-110 duration-200">Web Development</span> and <span class="font-extrabold  hover:scale-110 duration-200">Programming</span>
+        </p>
+        <p class="flex flex-col items-center justify-center mt-10 text-white font-mono">I'am currently learning <span class=" font-extrabold  hover:scale-110 duration-200">HTML</span> and <span class=" font-extrabold  hover:scale-110 duration-200">CSS</span></p>
     </div>
 </div>
 <hr class="border-white border-1 mt-10 mx-30"><br>
-<p class="text-2xl text-white font-mono font-semibold flex flex-col items-center justify-center mt-10">My Project</p>
+<p id="project" class="text-2xl text-white font-mono font-semibold flex flex-col items-center justify-center mt-10">My Project</p>
 <div class="w-full flex flex-wrap justify-center items-center mt-10 space-x-4 space-y-4 border-2 border-white border-dashed p-10">
-    <a href="#"><img src="assets/AdabTidur.png.png" alt="Tidur" class="w-80 h-80 shadow-white shadow-md hover:scale-110 shadow-lg duration-200 rounded-2xl"></a>
-    <a href="#"><img src="assets/Biru dan Putih Ilustrasi Edukasi Poster.png" alt="Tamu" class="w-100 h-100 shadow-white shadow-md hover:scale-110 shadow-lg hover:  shadow-black duration-200 rounded-2xl"></a>
-    <a href="#"><img src="assets/adab-adab.png" alt="Makan" class="w-80 h-80 shadow-white shadow-md hover:scale-110 shadow-lg duration-200 rounded-2xl"></a>
+    <a href="#"><img src="assets/AdabTidur.png.png" alt="Tidur" class="w-80 h-80 shadow-white shadow-md rounded-bl-full rounded-4xl hover:scale-110 hover:shadow-lg  hover:rounded-2xl duration-200"></a>
+    <a href="#"><img src="assets/Biru dan Putih Ilustrasi Edukasi Poster.png" alt="Tamu" class="w-100 h-100 shadow-white shadow-md hover:scale-110 hover:shadow-lg duration-200 rounded-2xl"></a>
+    <a href="#"><img src="assets/adab-adab.png" alt="Makan" class="w-80 h-80 shadow-white shadow-md rounded-br-full hover:scale-110 hover:shadow-lg  hover:rounded-2xl duration-200 "></a>
+</div>
+<div>
+    <p class="text-white font-mono text-2xl flex flex-col items-center justify-center mt-10">You can contact me on</p>
+    <span><p class="text-white font-mono"></p></span>
 </div>
 </body>
 </html>
